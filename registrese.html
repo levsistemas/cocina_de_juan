@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La cocina de Juan</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav style="background-color: orange;">
+            <a href="./index.html" style="text-decoration: none;border: solid 1px brown;background-color: orangered;color: white">Home</a>
+            <a href="./about.html" style="text-decoration: none;border: solid 1px brown;background-color: orangered;color: white">Acerca de</a>
+            <a href="./contact.html" style="text-decoration: none;border: solid 1px brown;background-color: orangered;color: white">Contacto</a>
+            <a href="./registrese.html" style="text-decoration: none;border: solid 1px brown;background-color: orangered;color: white">Registrese</a>
+            <a href="./sucursales.html" style="text-decoration: none;border: solid 1px brown;background-color: orangered;color: white">Sucursales</a>
+            <h1 style="text-align: center;">La cocina de Juan</h1>
+        </nav>
+    </header>
+
+    <main style="margin-top: 50px;">
+        <h3>Formulario de registro:</h3>
+        <form action="show_data.html" target="_blank">
+            <div style="margin-top: 20px;margin-bottom: 20px;">
+                <label for="firstname">Nombre:</label>
+                <input type="text" name="firstname" id="" placeholder="Ingrese su nombre aqui...">
+            </div>
+            <div style="margin-top: 20px;margin-bottom: 20px;">
+                <label for="lastname">Apellido:</label>
+                <input type="text" name="lastname" id="" placeholder="Ingrese su apellido aqui...">
+            </div>
+            <div style="margin-top: 20px;margin-bottom: 20px;">
+                <label for="street">Direccion:</label>
+                <input type="text" name="address" id="" placeholder="Ingrese su direccion aqui...">
+            </div>
+            <div style="margin-top: 20px;margin-bottom: 20px;">
+                <label for="city">Ciudad:</label>
+                <input type="text" name="city" id="" value="C.A.B.A">
+            </div>
+            <div style="margin-top: 20px;margin-bottom: 20px;">
+                <label for="zipcode">Código Postal:</label>
+                <input type="number" name="zipcode" id="" placeholder="Ingrese su código postal aquí">
+            </div>
+            <div style="margin-top: 20px;margin-bottom: 20px;">
+                <label for="BirthDate">Fecha de Nacimiento (mm/dd/yyyy):</label>
+                <input type="date" name="birthdate" id="">
+            </div>
+            <div style="margin-top: 20px;margin-bottom: 20px;">
+                <label for="">Género:</label>
+                <input type="radio" name="Sexo" id="" value="Hombre" checked style="margin: 7px;">Hombre
+                <input type="radio" name="Sexo" id="" value="Mujer" style="margin: 7px;">Mujer
+            </div>
+            <div style="margin-top: 20px;margin-bottom: 20px;">
+                <label for="">Estudios:</label>
+                <input type="checkbox" name="Estudio" id="" value="Primario" style="margin: 7px;">Primario
+                <input type="checkbox" name="Estudio" id="" value="Secundario" style="margin: 7px;">Secundario
+                <input type="checkbox" name="Estudio" id="" value="Terciario" style="margin: 7px;">Terciario
+                <input type="checkbox" name="Estudio" id="" value="Universitario" style="margin: 7px;">Universitario
+                <input type="checkbox" name="Estudio" id="" value="Otro" style="margin: 7px;">Otro
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+        <p style="margin-top: 10px;">Si usted hace click en el botón "Enviar", la informacion sera enviada a la página "show_data.html"</p>
+    </main>
+
+    <footer style="margin-top: 20px;">
+        <nav style="background-color: orange;height: 100px;align-content: center;">
+            <div style="display:flex;justify-content: center;">
+                <a href="https://twitter.com.ar" target="_blank">
+                    <img src="./img/gorjeo.png" alt="Twitter" width="30px">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="./img/facebook.png" alt="Facebook" width="30px">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="./img/instagram.png" alt="Instagram" width="30px">
+                </a>
+                <a href="https://www.linkedin.com/feed/" target="_blank">
+                    <img src="./img/linkedin.png" alt="LinkedIn" width="30px">
+                </a>
+            </div>
+            <div>
+                <p style="margin: 0,auto;display: flex;justify-content: center;align-items: center;">Derechos Reservados @2024</p>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
